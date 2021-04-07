@@ -1,4 +1,4 @@
-## Welcome to Personal Site of Katia Dabrytskaa
+## Welcome to Personal Site of Katia Dabrytskaya
 
 It`s a Web-page for Pre-course of Katia's Personal Project
 
