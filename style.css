@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cormorant, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-top: 14px;
+}
+nav a {
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+  color: #161616;
+  cursor: pointer;
+  padding: 5px, 7px;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+img1 {
+  position: absolute;
+  width: 315px;
+  height: 182px;
+  left: 562px;
+  top: 270px;
+}
+
+img2 {
+  position: absolute;
+  width: 730px;
+  height: 182px;
+  left: 355.24px;
+  top: 414.09px;
+}
+img_main {
+  position: absolute;
+  width: 477px;
+  height: 630px;
+  left: 819px;
+  top: 162px;
+}
+
+.contacts {
+  font-family: Cormorant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
