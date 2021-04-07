@@ -1,2 +1,2 @@
-# dabrytskaya.github.io
+dabrytskaya.github.io
 site
