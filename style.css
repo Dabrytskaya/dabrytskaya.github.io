@@ -1,3 +1,60 @@
+HEAD
+/* cormorant-regular - latin */
+@font-face {
+  font-family: "Cormorant";
+  font-style normal
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/cormorant-v11-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cormorant-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* cormorant-700 - latin */
+@font-face {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/cormorant-v11-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/cormorant-v11-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Cormorant";
+  line-height: 1.2;
+  font-weight: 700;
+  color: #161616;
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 469px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.contacts {
+  font-size: 20px;
+
 * {
   padding: 0;
   margin: 0;
@@ -56,3 +113,4 @@ img_main {
   line-height: 24px;
   color: #000000;
 }
+
