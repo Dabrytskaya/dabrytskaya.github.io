@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: "Cormorant", serif;
+  font-family: Cormorant, serif;
   line-height: 1.2;
   font-weight: 700;
   color: #161616;
@@ -34,7 +34,7 @@ h2 {
   left: 610px;
   top: 233px;
 
-  font-family: "Cormorant", serif;
+  font-family: Cormorant, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
