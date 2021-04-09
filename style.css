@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-=======
-HEAD
-/* cormorant-regular - latin */
-@font-face {
-  font-family: Cormorant;
-  font-style normal
-  font-weight: 400;
-  src="/fonts/cormorant-v11-latin-regular.woff2") format("woff2")",
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("cormorant-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* cormorant-700 - latin */
-@font-face {
-  font-family: Cormorant;
-  font-style: normal;
-  font-weight: 700;
-  src="/cormorant-v11-latin-700.woff2" format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/cormorant-v11-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
->>>>>>> b3a23c846fd282c2f3878d955b0eb4b2c2796168
 html {
   box-sizing: border-box;
 }
@@ -30,11 +8,7 @@ html {
 }
 
 body {
-<<<<<<< HEAD
   font-family: "Cormorant", serif;
-=======
-  font-family: Cormorant;
->>>>>>> b3a23c846fd282c2f3878d955b0eb4b2c2796168
   line-height: 1.2;
   font-weight: 700;
   color: #161616;
@@ -54,7 +28,6 @@ nav {
 }
 
 h2 {
-<<<<<<< HEAD
   position: absolute;
   width: 220px;
   height: 60px;
@@ -66,22 +39,11 @@ h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
-=======
-  font-family: Cormorant;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 48px;
->>>>>>> b3a23c846fd282c2f3878d955b0eb4b2c2796168
 }
 
 .contacts {
   font-size: 20px;
-<<<<<<< HEAD
 }
-=======
-
->>>>>>> b3a23c846fd282c2f3878d955b0eb4b2c2796168
 * {
   padding: 0;
   margin: 0;
@@ -105,7 +67,7 @@ nav a {
   margin-right: 10px;
 }
 
-nav a: hover {
+nav a hover {
   text-decoration: underline;
 }
 
@@ -143,4 +105,3 @@ nav a: hover {
   line-height: 24px;
   color: #000000;
 }
-
