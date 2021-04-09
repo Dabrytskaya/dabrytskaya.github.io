@@ -10,7 +10,7 @@ HEAD
 }
 /* cormorant-700 - latin */
 @font-face {
-  font-family: "Cormorant";
+  font-family: Cormorant;
   font-style: normal;
   font-weight: 700;
   src="/cormorant-v11-latin-700.woff2" format("woff2"),
