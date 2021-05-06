@@ -1,4 +1,4 @@
-# Katia Debrytskaya
+# Katia Dabrytskaya
 
 ## Portrait
 
