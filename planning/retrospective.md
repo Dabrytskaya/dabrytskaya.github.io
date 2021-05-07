@@ -28,4 +28,4 @@
 
 - You can use Figma to propose your ideas after all.
   
-[retrospective](https://github.com/Dabrytskaya/dabrytskaya.github.io/blob/main/planning/Снимок%20экрана%202021-05-07%20в%2019.27.17.png)
+![retrospective](https://github.com/Dabrytskaya/dabrytskaya.github.io/blob/main/planning/Снимок%20экрана%202021-05-07%20в%2019.27.17.png)
