@@ -71,3 +71,5 @@ that she and likes the aesthetic. <br>
 Something like a pinterest page <br>
 to show what inspire her as a <br>
 design.
+
+Ideas: https://www.figma.com/file/Ok6JGhyJxORiyBz32eVBun/Katia
