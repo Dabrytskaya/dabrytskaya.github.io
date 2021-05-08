@@ -9,9 +9,7 @@
 | 06.05 | 19:00 | Backlog, Wireframe |
 | 07.05  | 18:00 | Retrospective   |
 
-
 ## Availability
-
 
 | Day       |    Katia    |    Áxil      |
 | --------- | :---------: |  :---------: |
