@@ -32,10 +32,8 @@ a big company <br>
 where she can learn more <br>
 and grow as a professional. 
 
-She is interested in <br>
-creating applications and <br>
-working with mobile <br>
-companies. <br>
+She is interesting in <br>
+creating useful sites and applications <br>
 
 ## Homepage
 
