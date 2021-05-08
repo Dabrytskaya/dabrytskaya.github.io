@@ -9,10 +9,10 @@ My goal is to build my personal website and to learn how to plan UX/UI.
 
 ## Stages
 
-- [ ] Planning 
-- [ ] UI UX Interview
-- [ ] Backlog
-- [ ] Wireframe
+- [X] Planning 
+- [X] UI UX Interview
+- [X] Backlog
+- [X] Wireframe
 - [ ] Development Strategy
 - [ ] Development
 - [ ] Retrospective
