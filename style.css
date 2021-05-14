@@ -1,30 +1,35 @@
-html {
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  font-family: "Cormorant", serif;
 }
 
 body {
-  font-family: Cormorant, serif;
   line-height: 1.2;
-  font-weight: 700;
   color: #161616;
-  text-decoration: none;
 }
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
 }
-nav {
-  font-size: 20px;
+
+nav ul {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
   justify-content: space-between;
-  margin-right: 469px;
+  margin: 20px;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #161616;
+  cursor: pointer;
 }
 
 h2 {
@@ -33,42 +38,10 @@ h2 {
   height: 60px;
   left: 610px;
   top: 233px;
-
-  font-family: Cormorant, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
-}
-
-.contacts {
-  font-size: 20px;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Cormorant", serif;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-  margin-top: 14px;
-}
-nav a {
-  font-size: 20px;
-  display: inline-block;
-  font-weight: bold;
-  color: #161616;
-  cursor: pointer;
-  padding: 5px, 7px;
-  margin-right: 10px;
-}
-
-nav a hover {
-  text-decoration: underline;
 }
 
 .img1 {
@@ -98,10 +71,27 @@ nav a hover {
 }
 
 .contacts {
-  font-family: Cormorant;
-  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  height: 5vh;
+  top: 90%;
   font-weight: bold;
   font-size: 20px;
-  line-height: 24px;
   color: #000000;
+  text-decoration: none;
+  z-index: 99;
+}
+
+.contacts li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.contacts a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #161616;
+  cursor: pointer;
 }
