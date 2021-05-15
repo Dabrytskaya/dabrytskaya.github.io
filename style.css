@@ -1,30 +1,40 @@
-html {
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  font-family: "Cormorant", serif;
 }
 
 body {
-  font-family: Cormorant, serif;
   line-height: 1.2;
-  font-weight: 700;
   color: #161616;
-  text-decoration: none;
 }
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
 }
-nav {
-  font-size: 20px;
+
+nav ul {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
   justify-content: space-between;
-  margin-right: 469px;
+  margin: 20px;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #161616;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav a:hover {
+  border-bottom: 3px #161616 solid;
+  text-decoration: none;
 }
 
 h2 {
@@ -33,42 +43,10 @@ h2 {
   height: 60px;
   left: 610px;
   top: 233px;
-
-  font-family: Cormorant, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
-}
-
-.contacts {
-  font-size: 20px;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Cormorant", serif;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  margin-right: 30px;
-  margin-top: 14px;
-}
-nav a {
-  font-size: 20px;
-  display: inline-block;
-  font-weight: bold;
-  color: #161616;
-  cursor: pointer;
-  padding: 5px, 7px;
-  margin-right: 10px;
-}
-
-nav a hover {
-  text-decoration: underline;
 }
 
 .img1 {
@@ -97,11 +75,102 @@ nav a hover {
   z-index: 1;
 }
 
-.contacts {
-  font-family: Cormorant;
-  font-style: normal;
+.main_contacts {
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  height: 5vh;
   font-weight: bold;
   font-size: 20px;
-  line-height: 24px;
   color: #000000;
+  text-decoration: none;
+}
+
+.main_contacts li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.main_contacts a {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #161616;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main_contacts a:hover {
+  border-bottom: 3px #161616 solid;
+}
+
+/*ABOUTME*/
+.aboutme {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+.aboutme_container {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+.aboutme_internal {
+  width: 100%;
+  display: flex;
+}
+.aboutme_image {
+  position: absolute;
+  width: 410px;
+  height: 614px;
+  left: 223px;
+  top: 917px;
+}
+.abit_img {
+  position: absolute;
+  width: 253px;
+  height: 121px;
+  left: 559px;
+}
+
+.about_img {
+  position: absolute;
+  width: 343px;
+  height: 121px;
+  left: 636px;
+  top: 85px;
+}
+
+.myself_img {
+  position: absolute;
+  width: 362px;
+  height: 121px;
+  left: 720px;
+  top: 179px;
+}
+
+p {
+  position: absolute;
+  width: 464px;
+  height: 180px;
+  left: 625px;
+  top: 342px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 140%;
 }

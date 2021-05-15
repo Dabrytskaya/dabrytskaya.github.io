@@ -1,12 +1,34 @@
 
-# Welcome to Personal Site of Katia Dabrytskaya
+# Welcome to Personal Site by Katia Dabrytskaya
 
-It`s a Web-page for Pre-course of Katia's Personal Project
+Thanks for your attention and contribution. 🤗
 
-To find the result go to  [dabrytskaya.github.io](https://dabrytskaya.github.io)
+## Goal
 
-Thanks for your attention. 🤗
+My goal is to build my personal website and to learn how to plan UX/UI.  
 
-I hope it will be as that image... one day 😂😂
+## Stages
+
+- [X] Planning
+- [X] UI UX Interview
+- [X] Backlog
+- [X] Wireframe
+- [ ] Development Strategy
+- [ ] Development
+- [ ] Retrospective
+
+## Technologies
+
+- GITHUB
+- VSC
+- CLI
+- HTML
+- CSS
+
+## Links
+
+- To find the result go to  [dabrytskaya.github.io](https://dabrytskaya.github.io)
+
+- I hope it will be as that image... one day 😂😂
 
 ![img](/Kate_Design.png)
