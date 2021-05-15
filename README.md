@@ -19,7 +19,7 @@ My goal is to build my personal website and to learn how to plan UX/UI.
 
 ## Technologies
 
-- GITHUB
+- GITHUB 
 - VSC
 - CLI
 - HTML
