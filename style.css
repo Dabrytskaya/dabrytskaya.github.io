@@ -9,6 +9,7 @@ body {
   line-height: 1.2;
   color: #161616;
 }
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -30,6 +31,12 @@ nav a {
   font-weight: bold;
   color: #161616;
   cursor: pointer;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 3px #161616 solid;
+  text-decoration: none;
 }
 
 h2 {
@@ -61,6 +68,7 @@ h2 {
   top: 414.09px;
   z-index: 2;
 }
+
 .img_main {
   position: absolute;
   width: 477px;
@@ -70,28 +78,96 @@ h2 {
   z-index: 1;
 }
 
-.contacts {
-  display: flex;
+
+.main_contacts {
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
   height: 5vh;
-  top: 90%;
   font-weight: bold;
   font-size: 20px;
   color: #000000;
   text-decoration: none;
-  z-index: 99;
-}
-
-.contacts li {
   text-decoration: none;
   list-style: none;
 }
 
-.contacts a {
-  font-size: 20px;
-  font-weight: bold;
-  color: #161616;
-  cursor: pointer;
+.main_contacts a {
+  padding: 10px 20px;
+  text-decoration: none;
 }
+
+.main_contacts a:hover {
+  border-bottom: 3px #161616 solid;
+}
+
+/*ABOUTME*/
+.aboutme {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
+}
+.aboutme_container {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+.aboutme_internal {
+  width: 100%;
+  display: flex;
+}
+.aboutme_image {
+  position: absolute;
+  width: 410px;
+  height: 614px;
+  left: 223px;
+  top: 917px;
+}
+.abit_img {
+  position: absolute;
+  width: 253px;
+  height: 121px;
+  left: 559px;
+}
+
+.about_img {
+  position: absolute;
+  width: 343px;
+  height: 121px;
+  left: 636px;
+  top: 85px;
+}
+
+.myself_img {
+  position: absolute;
+  width: 362px;
+  height: 121px;
+  left: 720px;
+  top: 179px;
+}
+
+p {
+  position: absolute;
+  width: 464px;
+  height: 180px;
+  left: 625px;
+  top: 342px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 140%;
+
