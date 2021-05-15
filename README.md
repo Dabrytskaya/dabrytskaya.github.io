@@ -31,4 +31,4 @@ My goal is to build my personal website and to learn how to plan UX/UI.
 
 - I hope it will be as that image... one day 😂😂
 
-![img](/Kate_Design.png)
+![img](/Landing_katia.png)
